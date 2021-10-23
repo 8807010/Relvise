@@ -232,6 +232,10 @@ body {
   letter-spacing: 0.2px;
 }
 
+.header__menu-link:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 479px) {
   .header__menu-link {
     font-size: 18px;
@@ -349,6 +353,7 @@ body {
   text-decoration: none;
   text-align: center;
   margin: 10px 0;
+  transition: all 0.3s ease 0s;
 }
 
 @media (max-width: 479px) {
@@ -368,10 +373,20 @@ body {
   color: #fff;
 }
 
+.main-block__button-orange:hover {
+  background-color: #fff;
+  color:#ff7b47;
+ }
+
 .main-block__button-border {
   color: #0d5c63;
   border: 1px solid #0d5c63;
 }
+
+.main-block__button-border:hover {
+  color: #fff;
+  background-color: #0d5c63;
+ }
 
 /*------------------------------------------*/
 
@@ -891,6 +906,12 @@ body {
   text-align: center;
   color: #fff;
   padding: 0px 22px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.subscribe__button:hover {
+  background: #ca6137;
 }
 
 @media (max-width: 810px) {
