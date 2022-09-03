@@ -375,8 +375,8 @@ body {
 
 .main-block__button-orange:hover {
   background-color: #fff;
-  color:#ff7b47;
- }
+  color: #ff7b47;
+}
 
 .main-block__button-border {
   color: #0d5c63;
@@ -386,7 +386,7 @@ body {
 .main-block__button-border:hover {
   color: #fff;
   background-color: #0d5c63;
- }
+}
 
 /*------------------------------------------*/
 
@@ -819,7 +819,7 @@ body {
 }
 
 .subscribe::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1186,8 +1186,16 @@ body {
   align-items: center;
 }
 
+.social__item {
+  transition: all 0.3s ease;
+}
+
 .social__item:not(:last-child) {
   margin-right: 20px;
+}
+
+.social__item:hover {
+  transform: scale(1.2);
 }
 
 .footer__copy {
