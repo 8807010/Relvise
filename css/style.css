@@ -234,6 +234,7 @@ body {
 
 .header__menu-link:hover {
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 @media (max-width: 479px) {
@@ -621,6 +622,7 @@ body {
 
 .item-practice__link:hover {
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .item-practice__text {
@@ -978,6 +980,7 @@ body {
 
 .item-getintouch__email:hover {
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .item-getintouch > *:not(:last-child) {
@@ -1155,6 +1158,7 @@ body {
 
 .contacts-footer__item:hover {
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .contacts-footer__item:not(:last-child) {
@@ -1175,6 +1179,7 @@ body {
 
 .menu-footer__link:hover {
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .footer__bottom {
